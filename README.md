@@ -61,8 +61,8 @@ O sistema utiliza a infraestrutura de nuvem da AWS (Fase 5) para monitoramento a
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/fase7-fiap.git
-   cd fase7-fiap
+   git clone https://github.com/phzani/CAP1-FASE7-FIAP.git
+   cd CAP1-FASE7-FIAP
    ```
 
 2. **Instale as dependências**:
