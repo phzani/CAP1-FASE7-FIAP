@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC50B33C-D33B-EDE6-3156-35D3E7BC8136" name="T_SENSOR_APLICADO">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor_aplicado" id="9ED760C2-0892-2429-B91E-46F5C289FB63">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>93378209-97FF-592E-42AA-DD83AABA028A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sensor" id="6FEF0BD6-FC2D-928D-0410-68555C3A43B6">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>93378209-97FF-592E-42AA-DD83AABA028A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D561FAEE-C16E-3BD8-3FB7-FD62F36B03E1" referredColumn="06BCBED9-8635-8E2B-1B4D-A1539DE11FB0"/>
+</associations>
+</Column>
+<Column name="id_plantacao" id="C5E6571D-D2A1-F78B-107A-3E4F58FA4B9C">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>93378209-97FF-592E-42AA-DD83AABA028A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="836FC13D-996F-55AD-119A-0B2F1A530942" referredColumn="661BB1AB-1B80-A7C9-2617-2DBDFB1C7966"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7988318-E418-C3B3-0B80-4C11F6FFE7A2" name="T_SENSOR_APLICADO_PK">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ED760C2-0892-2429-B91E-46F5C289FB63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D77EBA8-671A-CDDB-B78A-9047D24D1DB5" name="T_SENSOR_APLICADO_T_SENSOR_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FEF0BD6-FC2D-928D-0410-68555C3A43B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79D51C04-7CB8-A2FA-5A22-5939C523445A" name="T_SENSOR_APLICADO_T_PLANTACAO_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E6571D-D2A1-F78B-107A-3E4F58FA4B9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

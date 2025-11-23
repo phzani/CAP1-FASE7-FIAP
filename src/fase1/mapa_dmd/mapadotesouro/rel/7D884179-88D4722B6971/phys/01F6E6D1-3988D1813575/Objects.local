@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="08848FE5-813E-7E93-5FDA-5CC38EC6F20A" name="T_PLANTIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="10CC42C9-DD06-E7EF-2255-9D03D903F430" name="T_APLICACAO_PRODUTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="613FB146-599B-CDDD-EBF4-F8C859CE5B0D" name="T_SENSOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="7537DC56-391E-2679-A434-C28565BA248E" name="T_PLANTACAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="96E12D47-CEDB-17FB-0F4E-A466D4A974BA" name="T_LEITURA_SENSOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="DC50B33C-D33B-EDE6-3156-35D3E7BC8136" name="T_SENSOR_APLICADO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="DF1C4B16-DE99-5B84-B3A4-204E2E2724EB" name="T_CULTURA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="FB7D534C-918F-1D7A-358E-4188EEB16B91" name="T_PRODUTOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c>

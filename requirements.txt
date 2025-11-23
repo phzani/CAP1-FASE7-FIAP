@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+boto3
+scikit-learn
+matplotlib
+plotly
+requests
+# opencv-python-headless # Uncomment if CV is needed and system libs are present
+# ultralytics # For YOLO if needed
+Pillow
+joblib

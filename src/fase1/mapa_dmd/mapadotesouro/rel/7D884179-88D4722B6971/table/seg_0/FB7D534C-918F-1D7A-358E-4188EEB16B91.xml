@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB7D534C-918F-1D7A-358E-4188EEB16B91" name="T_PRODUTOR">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produtor" id="29F3C5E2-89F9-4A19-EB32-D729CCB8D88B">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>93378209-97FF-592E-42AA-DD83AABA028A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="40FDC6D9-A556-24C8-1D64-1344A47F44A6">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>020116EA-627C-F851-A5C8-861A6AFB8AA3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="documento" id="A8A3908E-576B-4F49-4FEB-BD4832F7B525">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FD51BBA7-D9CA-FC4E-993C-E9F394F8A55F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B4A1C28-7776-5462-FDF7-3148B6EE7DCF" name="T_PRODUTOR_PK">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29F3C5E2-89F9-4A19-EB32-D729CCB8D88B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

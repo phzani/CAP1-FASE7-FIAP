@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F34612A-D548-8ABB-D14A-891BB5E49A62" containerWithKeyObject="96E12D47-CEDB-17FB-0F4E-A466D4A974BA" localFKIndex="691DDB71-6768-5D2F-2AD3-5DA9EDCC7BFA" name="T_LEITURA_SENSOR_T_SENSOR_APLICADO_FK">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<referredTableLongName>T_SENSOR_APLICADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC50B33C-D33B-EDE6-3156-35D3E7BC8136</referredTableID>
+<keyObject>C7988318-E418-C3B3-0B80-4C11F6FFE7A2</keyObject>
+<referredKeyID>C7988318-E418-C3B3-0B80-4C11F6FFE7A2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_sensor_aplicado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

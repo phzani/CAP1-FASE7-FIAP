@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DF9F386-0F6E-4156-8D43-CA515613321E" containerWithKeyObject="08848FE5-813E-7E93-5FDA-5CC38EC6F20A" localFKIndex="B7C09576-A788-8AFF-F45A-ACA67A3CEDF6" name="T_PLANTIO_T_CULTURA_FK">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<referredTableLongName>T_CULTURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF1C4B16-DE99-5B84-B3A4-204E2E2724EB</referredTableID>
+<keyObject>E9802FD1-FB42-1FFD-47AA-A01E69857784</keyObject>
+<referredKeyID>E9802FD1-FB42-1FFD-47AA-A01E69857784</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cultura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

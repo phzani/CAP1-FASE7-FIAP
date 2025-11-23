@@ -1,0 +1,87 @@
+
+-- PRODUTOR
+CREATE TABLE T_PRODUTOR (
+    id_produtor INTEGER PRIMARY KEY,
+    nome VARCHAR2(100),
+    documento VARCHAR2(20)
+);
+
+-- CULTURA
+CREATE TABLE T_CULTURA (
+    id_cultura INTEGER PRIMARY KEY,
+    nome_cultura VARCHAR2(100)
+);
+
+-- PLANTACAO
+CREATE TABLE T_PLANTACAO (
+    id_plantacao INTEGER PRIMARY KEY,
+    id_produtor INTEGER,
+    localizacao VARCHAR2(150)
+);
+
+-- PLANTIO (mantido para representar cultura por plantação)
+CREATE TABLE T_PLANTIO (
+    id_plantio INTEGER PRIMARY KEY,
+    id_plantacao INTEGER NOT NULL,
+    id_cultura INTEGER NOT NULL,
+    data_inicio DATE,
+    data_fim DATE
+);
+
+-- SENSOR
+CREATE TABLE T_SENSOR (
+    id_sensor INTEGER PRIMARY KEY,
+    tipo_sensor VARCHAR2(50)
+);
+
+-- SENSOR APLICADO
+CREATE TABLE T_SENSOR_APLICADO (
+    id_sensor_aplicado INTEGER PRIMARY KEY,
+    id_sensor INTEGER,
+    id_plantacao INTEGER
+);
+
+-- LEITURA SENSOR
+CREATE TABLE T_LEITURA_SENSOR (
+    id_leitura INTEGER PRIMARY KEY,
+    id_sensor_aplicado INTEGER,
+    data_hora TIMESTAMP,
+    valor NUMBER
+);
+
+-- APLICACAO PRODUTO
+CREATE TABLE T_APLICACAO_PRODUTO (
+    id_aplicacao INTEGER PRIMARY KEY,
+    id_plantacao INTEGER,
+    data_hora TIMESTAMP,
+    quantidade NUMBER
+);
+
+-- FKs definidas após criação das tabelas
+ALTER TABLE T_PLANTACAO
+    ADD CONSTRAINT T_PLANTACAO_T_PRODUTOR_FK
+    FOREIGN KEY (id_produtor) REFERENCES T_PRODUTOR(id_produtor);
+
+ALTER TABLE T_PLANTIO
+    ADD CONSTRAINT T_PLANTIO_T_PLANTACAO_FK
+    FOREIGN KEY (id_plantacao) REFERENCES T_PLANTACAO(id_plantacao);
+
+ALTER TABLE T_PLANTIO
+    ADD CONSTRAINT T_PLANTIO_T_CULTURA_FK
+    FOREIGN KEY (id_cultura) REFERENCES T_CULTURA(id_cultura);
+
+ALTER TABLE T_SENSOR_APLICADO
+    ADD CONSTRAINT T_SENSOR_APLICADO_T_SENSOR_FK
+    FOREIGN KEY (id_sensor) REFERENCES T_SENSOR(id_sensor);
+
+ALTER TABLE T_SENSOR_APLICADO
+    ADD CONSTRAINT T_SENSOR_APLICADO_T_PLANTACAO_FK
+    FOREIGN KEY (id_plantacao) REFERENCES T_PLANTACAO(id_plantacao);
+
+ALTER TABLE T_LEITURA_SENSOR
+    ADD CONSTRAINT T_LEITURA_SENSOR_T_SENSOR_APLICADO_FK
+    FOREIGN KEY (id_sensor_aplicado) REFERENCES T_SENSOR_APLICADO(id_sensor_aplicado);
+
+ALTER TABLE T_APLICACAO_PRODUTO
+    ADD CONSTRAINT T_APLICACAO_PRODUTO_T_PLANTACAO_FK
+    FOREIGN KEY (id_plantacao) REFERENCES T_PLANTACAO(id_plantacao);

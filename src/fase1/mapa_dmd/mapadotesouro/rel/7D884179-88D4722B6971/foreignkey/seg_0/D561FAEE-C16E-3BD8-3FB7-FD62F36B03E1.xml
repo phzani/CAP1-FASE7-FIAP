@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D561FAEE-C16E-3BD8-3FB7-FD62F36B03E1" containerWithKeyObject="DC50B33C-D33B-EDE6-3156-35D3E7BC8136" localFKIndex="5D77EBA8-671A-CDDB-B78A-9047D24D1DB5" name="T_SENSOR_APLICADO_T_SENSOR_FK">
+<sourceDDLFile>script_mapa_tesouro.sql</sourceDDLFile>
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-22 21:26:55 UTC</createdTime>
+<ownerDesignName>mapadotesouro</ownerDesignName>
+<referredTableLongName>T_SENSOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>613FB146-599B-CDDD-EBF4-F8C859CE5B0D</referredTableID>
+<keyObject>58DA6324-8C43-9786-0EC8-139CD586172E</keyObject>
+<referredKeyID>58DA6324-8C43-9786-0EC8-139CD586172E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_sensor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="1FCD25F7-214D-19AF-3B71-302E9E6A19CC" name="script_mapa_tesouro" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
